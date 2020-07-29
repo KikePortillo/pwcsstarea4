@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores-PW1</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
 
-You can use the [editor on GitHub](https://github.com/KikePortillo/pwcsstarea4/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <div id="head">
+      <p>
+        <a
+          href="http://publicacionesaltaria.com/es/tienda/112-html-css-curso-practico.html"
+          >HTML &amp; CSS: Curso práctico avanzado</a>
+     </p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      <p>
+        Aunque los inicios de
+        <a href="https://es.wikipedia.org/wiki/Internet">Internet</a> se
+        remontan a los años sesenta, no ha sido hasta los años noventa cuando,
+        gracias a la Web, se ha extendido su uso por todo el mundo. En pocos
+        años, la Web ha evolucionado enormemente: se ha pasado de páginas
+        sencillas, con pocas imágenes y contenidos estáticos que eran visitadas
+        por unos pocos usuarios a
+        <em >páginas complejas, con contenidos dinámicos que provienen de bases de
+          datos y que son visitadas por miles de usuarios al mismo tiempo</em >.
+      </p>
+    </div>
 
-### Markdown
+    <div id="body" class="normal">
+      <p>
+        Todas las páginas están internamente construidas con la misma
+        tecnología, con el
+        <em class="especial">Lenguaje de marcas de hipertexto</em> (<span
+          >Hypertext Markup Language</span >,
+           <a href="https://es.wikipedia.org/wiki/HTML">HTML</a>) y con las
+        <em class="especial">Hojas de estilo en cascada</em> (<span
+          >Cascading Style Sheets</span>, 
+          <a href="https://es.wikipedia.org/wiki/CSS">CSS</a>).
+      </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KikePortillo/pwcsstarea4/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      <p>
+        Este libro es
+        <em>adecuado para cualquiera que tenga interés en aprender a desarrollar
+          sus propias páginas web</em >. No son necesarios conocimientos previos para aprender con este libro,
+        lo único que es necesario es saber utilizar un ordenador y saber navegar por la Web.
+      </p>
+    </div>
+  </body>
+</html>
