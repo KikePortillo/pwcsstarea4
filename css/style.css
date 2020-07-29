@@ -13,7 +13,7 @@
   /* Todos los párrafos contenidos en #primero */
    #head p {
     color: #a9a9a9;
-    background-color: #006400;
+    background-color: #ffffff;
     text-align: center;
   }
 
@@ -28,14 +28,14 @@
   /* Los elementos <em> contenidos en #primero */
   #head em {
     color: 	#00ff00;
-    background-color: #ff7f50;
+    background-color: #ffffff;
     letter-spacing: 2px;
   }
 
   /* Todos los elementos <em> con la clase "especial" en toda la pagina */
    * em.especial {
     color: #00ff00;
-    background:  #ff7f50;
+    background:  #ffffff;
     text-decoration: line-through;
   }
 
