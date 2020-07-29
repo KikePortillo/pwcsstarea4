@@ -6,7 +6,7 @@
 
   /* Todos los parrafos de la pagina */
    p {
-    color: #555;
+    color: 	#008000;
     font-size: 20px;
   }
 
@@ -27,15 +27,15 @@
 
   /* Los elementos <em> contenidos en #primero */
   #head em {
-    color: #0000bb;
-    background-color: #ffffcc;
+    color: 	#00ff00;
+    background-color: #ff7f50;
     letter-spacing: 2px;
   }
 
   /* Todos los elementos <em> con la clase "especial" en toda la pagina */
    * em.especial {
-    color: #ffff00;
-    background: #000000;
+    color: #00ff00;
+    background:  #ff7f50;
     text-decoration: line-through;
   }
 
